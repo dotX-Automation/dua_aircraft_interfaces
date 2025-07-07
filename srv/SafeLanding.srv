@@ -1,9 +1,0 @@
-# Find the nearest safe landing site.
-#
-# August 22, 2024
-
-# REQUEST
----
-# RESPONSE
-# Proposed landing site
-geometry_msgs/PointStamped site

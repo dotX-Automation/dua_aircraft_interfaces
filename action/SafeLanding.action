@@ -1,0 +1,21 @@
+# Safe landing operation.
+#
+# July 7, 2025
+
+# GOAL
+# Decision position
+geometry_msgs/PointStamped minimums
+
+# Point choice policy
+uint8 POLICY_UNDEFINED = 0 # Try to land at the current position
+uint8 POLICY_NEAREST = 1   # Nearest safe point to the current position
+uint8 POLICY_HIGHEST = 2   # Highest safe point in the area
+uint8 POLICY_LOWEST = 3    # Lowest safe point in the area
+
+uint8 policy 0
+---
+# RESULT
+# Operation result
+dua_common_interfaces/CommandResultStamped result
+---
+# FEEDBACK
