@@ -5,6 +5,9 @@
 # June 6, 2023
 
 # GOAL
+# Enforce landing operation without initial descent
+bool descend
+
 # Decision position
 geometry_msgs/PointStamped minimums
 ---
